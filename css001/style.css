@@ -1,0 +1,1347 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/white.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.orange{
+ position: relative;
+ top: 55px;
+ 
+ left: 65px;
+ bottom: 60px;
+}
+.bleu {
+    position: relative;
+ top: 22px;
+ 
+ left: 70px;
+ bottom: 60px;
+}
+.hounter {
+    position: relative;
+    top: -10px;
+    font-size: 18px;
+    left: 125px;
+    bottom: 60px;
+    font-family: lexend;
+    color: rgb(5, 5, 70);
+}
+.image {
+    position: relative;
+    left: -100px;
+    Top: -900px;
+    left: 800px;
+    height: 10px;
+    width: -20px;
+} 
+
+.red {
+position: relative;
+top: -770px;
+left: 880px;
+}
+.red-2 {
+    position: relative;
+    top: -810px;
+    left: 1350px;
+}
+.red-3 {
+    position: relative;
+    top: -780px;
+    left: 1475px;
+}
+
+.nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav img {
+    width: 150px;
+}
+.nav-links {
+    flex: 1;
+    text-align: right;
+    margin-top: 50px;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a {
+    color: rgb(25, 25, 129);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    font-size:70px;
+    font-family: lexend;
+    margin-left: 100px;
+    color: rgb(9, 9, 97);
+}
+span {
+    font-family: Londrina Outline;
+    color:gray;
+}
+p{
+    color: grey;
+    font-family: lexend;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.inp {
+    position: absolute;
+}
+
+input {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-left: 100px;
+
+}
+input[type="text"] {
+    
+    background:#eee;
+    width: 440px;
+    height: 50px;
+    border: none;
+    outline: none;
+border-radius: 25px 0 0 25px;
+padding: 0 25px;
+}
+input[type="submit"] {
+   position: relative;
+   left: -120px;
+    border-radius: 25px 25px 25px 25px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background:  #10B981;
+}
+.vector {
+   position: relative;
+   top: 35px;
+   left: 70px;
+}
+.traveloka {
+   position: relative;
+   top: 25px;
+}
+.traveloka-1 {
+    position: relative;
+    top: 110px;
+    left: 100px;
+}
+.traveloka-2 {
+    position: relative;
+    top: 40px;
+    left: 220px;
+}
+.traveloka-3 {
+    position: relative;
+    top: -30px;
+    left: 350px;
+}
+.traveloka-4 {
+    position: relative;
+    left: 500px;
+    top: -100px;
+}
+
+.people {
+    position: relative;
+    top: -620px;
+    left: 850px;
+    width: 340px;
+    height: 100px;
+    background-color: #FFFFFF;
+    border-radius: 25px 25px 25px 25px;
+}
+.ellipse-2 {
+    position: relative;
+    top: -125px;
+    left: 30px;
+}
+.ellipse-3 {
+    position: relative;
+    top: -250px;
+    left: 55px;
+}
+.kp {
+    position: relative;
+    top: -350px;
+    left: 150px;
+    font-size: 20px;
+    font-family: lexend;
+    color: #1B1C57;
+    size: 16px;
+}
+.p4 {
+    position: relative;
+    top: -350px;
+    left: 39px;
+    font-size: -10px;
+}
+.p4 p {
+    font-size: 15px;
+}
+.house {
+    position: relative;
+    left: 350px;
+    top: -420px;
+    width: 200px;
+    height: 100px;
+    border-radius: 25px 25px 25px 25px;
+    background-color:#FFFFFF;
+    ;
+}
+.vll {
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+.yo {
+    position: relative;
+    left: 100px;
+    top: -32px;
+    font-size: 18px;
+    font-family: lexend;
+    color: #1B1C57;
+}
+.yoo {
+    position: relative;
+    left: 100px;
+    top: -30px;
+    color: grey;
+    font-size: 15px;
+    font-family: lexend;
+}
+.fnl {
+    position: relative;
+    top: -520px;
+    left: 560px;
+    height: 100px;
+    width: 250px;
+    border-radius:  25px 0 0 25px ;
+   background-color: #FFFFFF;
+   
+}
+.ctn {
+    position: relative;
+    top: -100px;
+}
+.ctn p {
+    font-size: 18px;
+    font-family:lexend;
+    color: #1B1C57;
+}
+.ctn-2 {
+position: relative;
+top: -100px;
+left: 100px;
+font-family: lexend;
+color: gray;
+}
+
+.p3 {
+    position: relative;
+    top: 100px;
+    left: 120px;
+    font-family: lexend;
+    color: gray;
+}
+.recomende {
+   
+    position: relative;
+    left: 700px;
+}
+.line {
+    position: relative;
+    left: -600px;
+    top: -350px;
+}
+.corse {
+    position: relative;
+    left: -550px;
+    top: -364px;
+    font-family: lexend;
+    font-size: 14px;
+    color:  #F59E0B;
+    
+}
+.fea {
+    display: flex;
+    position: relative;
+    top: -320px;
+    margin-left: 100px;
+}
+.featured {
+    font-size: 35px;
+    font-family: lexend;
+    color: #1B1C57;
+}
+.vector-1 {
+    background-color: #D1FAE5;
+    width: 135px;
+    height: 52px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 150px;
+
+}
+.one {
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.oone {
+    position: relative;
+    top: -24px;
+    left: 30px;
+    font-family: lexend;
+    font-size: 18px;
+    color: #10B981;
+    
+}
+.vector-2 {
+    background-color:#eee;
+    width: 135px;
+    height: 52px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 150px;
+    position: relative;
+    top: -45px;
+    left: 50px;
+}
+.two {
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.ttwo {
+    position: relative;
+    top: -24px;
+    left: 30px;
+    font-family: lexend;
+    font-size: 18px;
+    color:  #888B97;
+}
+.vector-3 {
+    background-color: #eee;
+    width: 150px;
+    height: 52px;
+    border-radius: 25px 25px 25px 25px;
+    outline: gray;
+    margin-left: 150px;
+    position: relative;
+    top: -45px;
+    left: 50px;
+}
+.three {
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.tthree {
+    position: relative;
+    top: -24px;
+    left: 20px;
+    font-family: lexend;
+    font-size: 15px;
+    color: #888B97;
+}
+.left {
+    background-color: #E0E3EB;
+    width: 60px;
+    height: 52px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 400px;
+    position: relative;
+    top: -98px;
+    left: 200px;
+}
+.left-1 {
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.right {
+    background-color: #10B981;
+    width: 60px;
+    height: 52px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 10px;
+    position: relative;
+    top: -150px;
+    left: 660px;
+}
+.right-2 {
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.fea-2 {
+    display: flex;
+    position: relative;
+    top: 50px;
+    margin-left: -400px;
+}
+.first {
+    margin-right: 60px;
+}
+.second {
+    margin-right: 60px;
+}
+.beforelate {
+    margin-right: 60px;
+}
+.end {
+    margin-right: 60px;
+}
+
+.vector-6 {
+    background-color:  #FEE2E2;
+    width: 110px;
+    height: 34px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 150px;
+    position: relative;
+    left: -1540px;
+    top: 330px;
+}
+.onne {
+    position: relative;
+    top: 15px;
+    left: 20px
+}
+.oonee {
+    position: relative;
+    top: -24px;
+    left: 16px;
+    font-family: lexend;
+    font-size: 18px;
+    color: #EF4444;
+}
+.vector-7 {
+    background-color:#DBEAFE;
+    width: 130px;
+    height: 34px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 150px;
+    position: relative;
+    left: 260px;
+    top: -45px;
+}
+.twwo {
+    position: relative;
+    top: 15px;
+    left: 20px
+}
+.ttwoo {
+    position: relative;
+    top: -20px;
+    left: 20px;
+    font-family: lexend;
+    font-size: 15px;
+    color:  #1D4ED8;
+}
+.vector-8 {
+    background-color: #D1FAE5;
+    width: 150px;
+    height: 34px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 150px;
+    position: relative;
+    left: 250px;
+    top: -35px;
+}
+.thrree {
+    position: relative;
+    top: 15px;
+    left: 20px
+}
+.tthreee {
+    position: relative;
+    top: -24px;
+    left: 30px;
+    font-family: lexend;
+    font-size: 18px;
+    color: #10B981;
+}
+.vector-9 {
+    background-color: #FEE2E2;
+    width: 110px;
+    height: 34px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 150px;
+    position: relative;
+    left: 660px;
+    top:   -70px;
+}
+.four {
+    position: relative;
+    top: 15px;
+    left: 20px
+}
+.fourr {
+    position: relative;
+    top: -24px;
+    left: 15px;
+    font-family: lexend;
+    font-size: 18px;
+    color:#EF4444;
+}
+.heading-2 {
+    display: flex;
+    justify-content: space-between;
+}
+.head-1 {    
+font-family: lexend;
+font-size: 24px;
+color: #1B1C57;
+}
+.head-2 {
+    font-family: lexend;
+    position: relative;
+    left: 200px;
+    font-size: 24px;
+    color: #1B1C57;
+}
+.head-3 {
+    font-family: lexend;
+    position: relative;
+    left: 420px;
+    font-size: 24px;
+    color: #1B1C57;
+}
+.head-4 {
+    font-family: lexend;
+    position: relative;
+    left: 570px;
+    font-size: 24px;
+    color: #1B1C57;
+}
+.client {
+display: flex;
+}
+.client-1 {
+height: 50px;
+width: 1000px;
+margin-right: 350px;
+margin-top: 20px;
+}
+.cl-1 {
+position: relative;
+top: -35px;
+left: 50px;
+font-family: lexend;
+font-size: 18px;
+color: #1B1C57;
+}
+.c-1 {
+position: relative;
+top: -30px;
+left: 50px;
+font-size: 14px;
+color: #888B97;
+font-family: lexend;
+}
+.client-2 {
+    height: 50px;
+    width: 120px;
+    margin-right: 350px;
+    margin-top: 20px;
+    position: relative;
+    left: -100px;
+}
+.cl-2 {
+    position: relative;
+    top: -35px;
+    left: 50px;
+    font-family: lexend;
+font-size: 18px;
+color: #1B1C57;
+}
+.c-2 {
+    position: relative;
+    top: -30px;
+    left: 50px;
+    font-size: 14px;
+color: #888B97;
+font-family: lexend;
+}
+.client-3 {
+    height: 50px;
+    width: 120px;
+    margin-right: 350px;
+    margin-top: 20px;
+    position: relative;
+    left: -180px;
+}
+.cl-3 {
+    position: relative;
+    top: -35px;
+    left: 50px;
+    font-family: lexend;
+font-size: 18px;
+color: #1B1C57;
+}
+.c-3 {
+    position: relative;
+top: -30px;
+left: 50px;
+font-size: 14px;
+color: #888B97;
+font-family: lexend;
+}
+.client-4 {
+    height: 50px;
+    width: 120px;
+    margin-right: 350px;
+    margin-top: 20px;
+    position: relative;
+    left: -250px;
+}
+.cl-4 {
+    position: relative;
+    top: -40px;
+    left: 50px;
+    font-family: lexend;
+font-size: 18px;
+color: #1B1C57;
+}
+.c-4 {
+    position: relative;
+top: -35px;
+left: 50px;
+font-size: 14px;
+color: #888B97;
+font-family: lexend;
+}
+.ready {
+    position: relative;
+top: 100px;
+}
+.corsse {
+    position: relative;
+    top: -20px;
+    left: 50px;
+    color: #F59E0B;
+    font-size: 14px;
+    font-family: lexend;
+}
+.header-3 {
+    font-family: lexend;
+    font-size: 32px;
+    color: #1B1C57;
+    word-spacing: 10px;
+}
+.par-8 {
+    font-size: 16px;
+    color: #888B97;
+    font-family: lexend;
+    margin-left: 20px;
+}
+.header-4 {
+    font-size: 18px;
+    font-family: lexend;
+    color: #1B1C57;
+    margin-left: 20px;
+}
+.shape {
+    position: relative;
+    
+    left: 20px;
+}
+.shape2 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.shape3 {
+    position: relative;
+    left: 300px;
+    top: -85px;
+}
+.shape4 {
+    position: relative;
+   top: -40px;
+    left: 300px;
+}
+.sh1 {
+    position: relative;
+    top: -25px;
+    left: 20px;
+    float: right;
+    font-family: lexend;
+    color: #888B97;
+
+}
+.sh2 {
+    float: right;
+    position: relative;
+    top: -20px;
+    left: 30px;
+    font-family: lexend;
+    color: #888B97;
+}
+.sh3 {
+    float: right;
+    font-family: lexend;
+    color: #888B97;
+}
+.sh4 {
+    position: relative;
+    top: -15px;
+    float: right;
+    font-family: lexend;
+    color: #888B97;
+}
+.image-1 {
+position: relative;
+top: -400px;
+left: 760px;
+}
+.image-2 {
+    position: relative;
+    top: -520px;
+    left: 720px;
+}
+.image-3 {
+position: relative;
+top: -605px;
+left: 1030px;
+}
+.image-4 {
+position: relative;
+top: -690px;
+left: 1140px;
+}
+.image-5 {
+    position: relative;
+    top: -1000px;
+left: 1000px;
+}
+.lana {
+    position: relative;
+top: -850px;
+left: 0px;
+}
+.lana-p {
+    position: relative;
+    top: -100px;
+    left: 100px;
+    font-family: lexend;
+    color: #1B1C57;
+
+}
+.lana-p2 {
+    position: relative;
+    top: -95px;
+    left: 100px;
+    font-family: lexend;
+    color:#888B97;
+    font-size: 16px;
+}
+.phone {
+    height: 50px;
+    width: 160px;
+    border-radius: 32px 32px;
+    background-color: #10B981;
+    position: relative;
+    top: -1000px;
+    left: 350px;
+}
+.call {
+    position: absolute;
+    right: 130px;
+    bottom: 10px;
+}
+.phonne {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    font-family: lexend;
+    color: #FFFFFF;
+    
+}
+.ssec4 {
+
+}
+.sec44 {
+    position: relative;
+    top: -850px;
+    left: 650px;
+}
+.sc {
+font-size: 15px;
+color:  #F59E0B;
+font-family: Lexend;
+position: relative;
+top: 7px;
+left: -145px;
+}
+.scc {
+    position: relative;
+    top: 30px;
+    left: -285px;
+    font-family: lexend;
+    font-size: 30px;
+    color: #1B1C57;
+}
+.scc1 {
+position: relative;
+top: 100px;
+left: -800px;
+}
+.maba {
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    width: 620px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    left: -1160px;
+    top: -85px;
+}
+.ita {
+    font-size: 15px;
+    position: relative;
+    top: 50px;
+    left: -260px;
+    font-family: lexend;
+    color: #888B97;
+}
+.star {
+    position: relative;
+    top: -240px;
+    left: -630px;
+}
+.pi {
+    position: relative;
+    top: -265px;
+    left: -590px;
+    font-family: lexend;
+    font-size: 20px;
+    color: #1B1C57;
+}
+.dar {
+    position: relative;
+    top: -700px;
+    left: -380px;
+}
+.box001 {
+    border-radius: 5px 5px 5px 5px;
+    background-color: white;
+    width: 620px;
+    height: 250px;
+    position: relative;
+    top: -870px;
+    left: -310px;
+}
+.p001 {
+    font-size: 20px;
+    color: #1B1C57;
+    font-family: lexend;
+    position: relative;
+    top: 25px;
+    left: -30px;
+}
+.p002 {
+    position: relative;
+    top: 30px;
+    left: -30px;
+    font-size: 16px;
+}
+.fille {
+    position: relative;
+    top: 45px;
+    left: 40px ;
+}
+.p003 {
+    position: relative;
+    top: -40px;
+    left: 22px;
+    font-family: lexend;
+    font-size: 13px;
+    color: #1B1C57;
+}
+.p004 {
+    font-family: lexend;
+    font-size: 15px;
+    color: #888B97;
+    position: relative;
+    top: -32px;
+    left: 20px;
+}
+.star2 {
+    position: relative;
+    left: 520px;
+    top: -50px;
+}
+.pi1 {
+    font-family: lexend;
+    font-size: 20px;
+    color: #1B1C57;
+    position: relative;
+    left: 560px;
+    top: -78px;
+}
+.dar2 {
+    position: relative;
+    top: -500px;
+    left: 800px;
+}
+.box002 {
+    border-radius: 5px 5px 5px 5px;
+    background-color: white;
+    width: 620px;
+    height: 250px;
+    position: relative;
+    top: -680px;
+    left: 850px;
+}
+.fille2 {
+    position: relative;
+    top: 120px;
+    left: 20px;
+}
+.p005 {
+    position: relative;
+    top: -75px;
+    left: -50px;
+    font-family: lexend;
+    font-size: 15px;
+    color: #1B1C57;
+}
+.pi2 {
+    position: relative;
+    top: -70px;
+    left: -50px;
+    font-size: 15px;
+}
+.p006 {
+    position: relative;
+    top: -58px;
+    left: 2px;
+    font-family: lexend;
+    font-size: 13px;
+    color: #1B1C57;
+}
+.p007 {
+    position: relative;
+    top: -50px;
+    font-family: lexend;
+    font-size: 15px;
+    color: #888B97;
+}
+.sec5 {
+    position: relative;
+    top: -750px;
+}
+.p008 {
+    font-family: lexend;
+    color: #F59E0B;
+    position: relative;
+    left: -290px;
+    top: 10px;
+    
+}
+.p009 {
+    font-size: 55px;
+    color: #1B1C57;
+    position: relative;
+    top: 20px;
+    left: -400px;
+}
+.box003 {
+    border-radius: 25px 25px 25px 25px;
+    background-color: #10B981;
+    height: 50px;
+    width: 200px;
+    position: relative;
+    top: 50px;
+    left: -75px;
+}
+.p010 {
+    color: white;
+    font-family: lexend;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: -60px;
+}
+.couch {
+    position: relative;
+    top: 85px;
+    left: -550px;
+}
+.fille5 {
+    position: relative;
+    top: -75px;
+    left: -350px;
+}
+.pi5 {
+    position: relative;
+    top: -75px;
+    left: -30px;
+    font-family: lexend;
+    font-size: 12px;
+}
+.p020 {
+    font-size: 20px;
+    font-family: lexend;
+    color: #1B1C57;
+    position: relative;
+    top: -45px;
+    left: -65px;
+}
+.heure {
+    position: relative;
+    left: -310px;
+    top: -100px;
+}
+.pi6 {
+    position: relative;
+    top: -25px;
+    left: -65px;
+    font-size: 15px;
+}
+.couch2 {
+    position: relative;
+    top: -75px;
+    left: -550px;
+}
+.garcon {
+    position: relative;
+    top: -160px;
+    left: 200px;
+}
+.pi7 {
+    position: relative;
+    top: -75px;
+    left: -30px;
+    font-family: lexend;
+    font-size: 12px;
+}
+.p021 {
+    font-size: 20px;
+    font-family: lexend;
+    color: #1B1C57;
+    position: relative;
+    top: -45px;
+    left: -65px;
+}
+.heure2 {
+    position: relative;
+    top: -25px;
+    left: 40px;
+}
+.pi8 {
+    position: relative;
+    top: -20px;
+    left: -65px;
+    font-size: 15px;
+}
+.couch3 {
+    position: relative;
+    top: -155px;
+}
+.garcon3 {
+   position: relative;
+   top: -155px;
+   left: 200px;
+}
+.pi9 {
+    position: relative;
+    top: -225px;
+    left: 170px;
+    font-family: lexend;
+    font-size: 12px;
+}
+.p022 {
+    font-size: 20px;
+    font-family: lexend;
+    color: #1B1C57;
+    position: relative;
+    top: -190px;
+    left: 140px;
+}
+.heure3 {
+    position: relative;
+    top: -175px;
+    left: 250px;
+}
+.p023 {
+   position: relative;
+   top: -27px;
+   left: -65px;
+   font-size: 15px;
+}
+.couch4 {
+    position: relative;
+    left: 200px;
+    top: -970px;
+}
+.garcon4 {
+position: relative;
+top: 20px;
+left: -45px;
+}
+.pi10 {
+    position: relative;
+    top: -45px;
+    left: -65px;
+    font-family: lexend;
+    font-size: 12px;
+}
+.p024 {
+    font-size: 20px;
+    font-family: lexend;
+    color: #1B1C57;
+    position: relative;
+    left: -110px;
+    top: -20px;
+}
+.p025 {
+    font-size: 20px;
+    font-family: lexend;
+    position: relative;
+    left: -110px;
+    top: -10px;
+}
+.heure4 {
+    position: relative;
+    top: 42px;
+    left: -20px;
+}
+.p026 {
+    position: relative;
+    top: -20px;
+    left: -65px;
+    font-size: 15px;
+}
+.box011 {
+    background-color: #6d86ca;
+    border-radius: 35px 35px 35px 35px;
+    height: 400px;
+    width: 1400px;
+    position: relative;
+    top: -800px;
+    left: -550px;
+}
+.chair001 {
+position: relative;
+top: 80px;
+left: 80px;
+}
+.fille011 {
+position: relative;
+top: 120px;
+left: 70px;
+}
+.boy001 {
+    position: relative;
+    top: -115px;
+    left: 230px;
+}
+.villa011 {
+    position: relative;
+    top: -85px;
+    left: 290px;
+}
+.p027 {
+    font-size: 40px;
+    font-family: lexend;
+    color: #1B1C57;
+    position: relative;
+    top: -250px;
+    left: 300px;
+}
+.villa002 {
+    position: relative;
+    top: -400px;
+    left: 1000px;
+}
+.boy002 {
+    position: relative;
+    top: -400px;
+    left: 1000px;
+}
+.girl001 {
+    position: relative;
+    top: -530px;
+    left: 1150px;
+}
+.chair011 {
+    position: relative;
+    top: -530px;
+    left: 1200px;
+}
+.inp001 {
+    position: relative;
+    top: -550px;
+    left: 300px;
+}
+.H001 {
+position: relative;
+top: -300px;
+left: 30px;
+}
+.H002 {
+    position: relative;
+    top: -30px;
+    left: 5px;
+}
+.p030 {
+    position: relative;
+    top: -45px;
+    left: -50px;
+    font-family: lexend;
+    font-size: 30px;
+    color: #1B1C57;
+}
+.p031 {
+    position: relative;
+    top: -220px;
+    left: 350px;
+    font-family: lexend;
+    font-size: 30px;
+    color: #1B1C57;
+}
+.p032 {
+    position: relative;
+    top: -315px;
+    left: 580px;
+    font-family: lexend;
+    font-size: 30px;
+    color: #1B1C57;
+}
+.p033 {
+    position: relative;
+    top: -430px;
+    left: 750px;
+    font-family: lexend;
+    font-size: 30px;
+    color: #1B1C57;
+}
+.p100 {
+    font-size: 15px;
+    font-family: lexend;
+    position: relative;
+    top: -15px;
+    left: -100px;
+}
+.facbook {
+position: relative;
+top: 20px;
+left: 25px;
+}
+.twitter {
+    position: relative;
+    top: -5px;
+    left: 60px;
+}
+.instagram {
+    position: relative;
+    top: -30px;
+    left: 105px;
+}
+.p200 {
+font-size: 15px;
+font-family: lexend;
+color: #888B97;
+position: relative;
+left: 350px;
+top: -180px;
+}
+.p300 {
+    font-size: 15px;
+    font-family: lexend;
+    color: #888B97;
+    position: relative;
+left: 350px;
+top: -175px;
+}
+.p400 {
+    font-size: 15px;
+    font-family: lexend;
+    color: #888B97;
+    position: relative;
+left: 350px;
+top: -170px;
+}
+.p500{
+    font-size: 15px;
+    font-family: lexend;
+    color: #888B97;
+    position: relative;
+    left: 600px;
+    top: -270px;
+}
+.p600 {
+    font-size: 15px;
+    font-family: lexend;
+    color: #888B97;
+    position: relative;
+    left: 600px;
+    top: -270px;
+}
+.p700 {
+    font-size: 15px;
+    font-family: lexend;
+    color: #888B97;
+    position: relative;
+    left: 600px;
+    top: -270px;
+}
+.p800 {
+    font-size: 15px;
+    font-family: lexend;
+    color: #888B97;
+    position: relative;
+    left: 600px;
+    top: -265px;
+}
+.p1000 {
+    font-size: 15px;
+    font-family: lexend;
+    color: #888B97;
+    position: relative;
+    left: 750px;
+    top: -380px;
+}
+.p2000 {
+    font-size: 15px;
+    font-family: lexend;
+    color: #888B97;
+    position: relative;
+    left: 750px;
+    top: -380px;
+}
+.p3000 {
+    font-size: 15px;
+    font-family: lexend;
+    color: #888B97;
+    position: relative;
+    left: 750px;
+    top: -380px;
+}

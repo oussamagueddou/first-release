@@ -1,0 +1,780 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/white.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.orange{
+ position: relative;
+ top: 55px;
+ 
+ left: 65px;
+ bottom: 60px;
+}
+.bleu {
+    position: relative;
+ top: 22px;
+ 
+ left: 70px;
+ bottom: 60px;
+}
+.hounter {
+    position: relative;
+    top: -10px;
+    font-size: 18px;
+    left: 125px;
+    bottom: 60px;
+    font-family: lexend;
+    color: rgb(5, 5, 70);
+}
+.image {
+    position: relative;
+    left: -100px;
+    Top: -900px;
+    left: 800px;
+    height: 10px;
+    width: -20px;
+} 
+
+.red {
+position: relative;
+top: -770px;
+left: 880px;
+}
+.red-2 {
+    position: relative;
+    top: -810px;
+    left: 1350px;
+}
+.red-3 {
+    position: relative;
+    top: -780px;
+    left: 1475px;
+}
+
+.nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav img {
+    width: 150px;
+}
+.nav-links {
+    flex: 1;
+    text-align: right;
+    margin-top: 50px;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a {
+    color: rgb(25, 25, 129);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    font-size:70px;
+    font-family: lexend;
+    margin-left: 100px;
+    color: rgb(9, 9, 97);
+}
+span {
+    font-family: Londrina Outline;
+    color:gray;
+}
+p{
+    color: grey;
+    font-family: lexend;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.inp {
+    position: absolute;
+}
+
+input {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-left: 100px;
+
+}
+input[type="text"] {
+    
+    background:#eee;
+    width: 440px;
+    height: 50px;
+    border: none;
+    outline: none;
+border-radius: 25px 0 0 25px;
+padding: 0 25px;
+}
+input[type="submit"] {
+   position: relative;
+   left: -120px;
+    border-radius: 25px 25px 25px 25px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background:  #10B981;
+}
+.vector {
+   position: relative;
+   top: 35px;
+   left: 70px;
+}
+.traveloka {
+   position: relative;
+   top: 25px;
+}
+.traveloka-1 {
+    position: relative;
+    top: 110px;
+    left: 100px;
+}
+.traveloka-2 {
+    position: relative;
+    top: 40px;
+    left: 220px;
+}
+.traveloka-3 {
+    position: relative;
+    top: -30px;
+    left: 350px;
+}
+.traveloka-4 {
+    position: relative;
+    left: 500px;
+    top: -100px;
+}
+
+.people {
+    position: relative;
+    top: -620px;
+    left: 850px;
+    width: 340px;
+    height: 100px;
+    background-color: #FFFFFF;
+    border-radius: 25px 25px 25px 25px;
+}
+.ellipse-2 {
+    position: relative;
+    top: -125px;
+    left: 30px;
+}
+.ellipse-3 {
+    position: relative;
+    top: -250px;
+    left: 55px;
+}
+.kp {
+    position: relative;
+    top: -350px;
+    left: 150px;
+    font-size: 20px;
+    font-family: lexend;
+    color: #1B1C57;
+    size: 16px;
+}
+.p4 {
+    position: relative;
+    top: -350px;
+    left: 39px;
+    font-size: -10px;
+}
+.p4 p {
+    font-size: 15px;
+}
+.house {
+    position: relative;
+    left: 350px;
+    top: -420px;
+    width: 200px;
+    height: 100px;
+    border-radius: 25px 25px 25px 25px;
+    background-color:#FFFFFF;
+    ;
+}
+.vll {
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+.yo {
+    position: relative;
+    left: 100px;
+    top: -32px;
+    font-size: 18px;
+    font-family: lexend;
+    color: #1B1C57;
+}
+.yoo {
+    position: relative;
+    left: 100px;
+    top: -30px;
+    color: grey;
+    font-size: 15px;
+    font-family: lexend;
+}
+.fnl {
+    position: relative;
+    top: -520px;
+    left: 560px;
+    height: 100px;
+    width: 250px;
+    border-radius:  25px 0 0 25px ;
+   background-color: #FFFFFF;
+   
+}
+.ctn {
+    position: relative;
+    top: -100px;
+}
+.ctn p {
+    font-size: 18px;
+    font-family:lexend;
+    color: #1B1C57;
+}
+.ctn-2 {
+position: relative;
+top: -100px;
+left: 100px;
+font-family: lexend;
+color: gray;
+}
+
+.p3 {
+    position: relative;
+    top: 100px;
+    left: 120px;
+    font-family: lexend;
+    color: gray;
+}
+.recomende {
+   
+    position: relative;
+    left: 700px;
+}
+.line {
+    position: relative;
+    left: -600px;
+    top: -350px;
+}
+.corse {
+    position: relative;
+    left: -550px;
+    top: -364px;
+    font-family: lexend;
+    font-size: 14px;
+    color:  #F59E0B;
+    
+}
+.fea {
+    display: flex;
+    position: relative;
+    top: -320px;
+    margin-left: 100px;
+}
+.featured {
+    font-size: 35px;
+    font-family: lexend;
+    color: #1B1C57;
+}
+.vector-1 {
+    background-color: #D1FAE5;
+    width: 135px;
+    height: 52px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 150px;
+
+}
+.one {
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.oone {
+    position: relative;
+    top: -24px;
+    left: 30px;
+    font-family: lexend;
+    font-size: 18px;
+    color: #10B981;
+    
+}
+.vector-2 {
+    background-color:#eee;
+    width: 135px;
+    height: 52px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 150px;
+    position: relative;
+    top: -45px;
+    left: 50px;
+}
+.two {
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.ttwo {
+    position: relative;
+    top: -24px;
+    left: 30px;
+    font-family: lexend;
+    font-size: 18px;
+    color:  #888B97;
+}
+.vector-3 {
+    background-color: #eee;
+    width: 150px;
+    height: 52px;
+    border-radius: 25px 25px 25px 25px;
+    outline: gray;
+    margin-left: 150px;
+    position: relative;
+    top: -45px;
+    left: 50px;
+}
+.three {
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.tthree {
+    position: relative;
+    top: -24px;
+    left: 20px;
+    font-family: lexend;
+    font-size: 15px;
+    color: #888B97;
+}
+.left {
+    background-color: #E0E3EB;
+    width: 60px;
+    height: 52px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 400px;
+    position: relative;
+    top: -98px;
+    left: 200px;
+}
+.left-1 {
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.right {
+    background-color: #10B981;
+    width: 60px;
+    height: 52px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 10px;
+    position: relative;
+    top: -150px;
+    left: 660px;
+}
+.right-2 {
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.fea-2 {
+    display: flex;
+    position: relative;
+    top: 50px;
+    margin-left: -400px;
+}
+.first {
+    margin-right: 60px;
+}
+.second {
+    margin-right: 60px;
+}
+.beforelate {
+    margin-right: 60px;
+}
+.end {
+    margin-right: 60px;
+}
+
+.vector-6 {
+    background-color:  #FEE2E2;
+    width: 110px;
+    height: 34px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 150px;
+    position: relative;
+    left: -1540px;
+    top: 330px;
+}
+.onne {
+    position: relative;
+    top: 15px;
+    left: 20px
+}
+.oonee {
+    position: relative;
+    top: -24px;
+    left: 16px;
+    font-family: lexend;
+    font-size: 18px;
+    color: #EF4444;
+}
+.vector-7 {
+    background-color:#DBEAFE;
+    width: 130px;
+    height: 34px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 150px;
+    position: relative;
+    left: 260px;
+    top: -45px;
+}
+.twwo {
+    position: relative;
+    top: 15px;
+    left: 20px
+}
+.ttwoo {
+    position: relative;
+    top: -20px;
+    left: 20px;
+    font-family: lexend;
+    font-size: 15px;
+    color:  #1D4ED8;
+}
+.vector-8 {
+    background-color: #D1FAE5;
+    width: 150px;
+    height: 34px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 150px;
+    position: relative;
+    left: 250px;
+    top: -35px;
+}
+.thrree {
+    position: relative;
+    top: 15px;
+    left: 20px
+}
+.tthreee {
+    position: relative;
+    top: -24px;
+    left: 30px;
+    font-family: lexend;
+    font-size: 18px;
+    color: #10B981;
+}
+.vector-9 {
+    background-color: #FEE2E2;
+    width: 110px;
+    height: 34px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 150px;
+    position: relative;
+    left: 660px;
+    top:   -70px;
+}
+.four {
+    position: relative;
+    top: 15px;
+    left: 20px
+}
+.fourr {
+    position: relative;
+    top: -24px;
+    left: 15px;
+    font-family: lexend;
+    font-size: 18px;
+    color:#EF4444;
+}
+.heading-2 {
+    display: flex;
+    justify-content: space-between;
+}
+.head-1 {    
+font-family: lexend;
+font-size: 24px;
+color: #1B1C57;
+}
+.head-2 {
+    font-family: lexend;
+    position: relative;
+    left: 200px;
+    font-size: 24px;
+    color: #1B1C57;
+}
+.head-3 {
+    font-family: lexend;
+    position: relative;
+    left: 420px;
+    font-size: 24px;
+    color: #1B1C57;
+}
+.head-4 {
+    font-family: lexend;
+    position: relative;
+    left: 570px;
+    font-size: 24px;
+    color: #1B1C57;
+}
+.client {
+display: flex;
+}
+.client-1 {
+height: 50px;
+width: 1000px;
+margin-right: 350px;
+margin-top: 20px;
+}
+.cl-1 {
+position: relative;
+top: -35px;
+left: 50px;
+font-family: lexend;
+font-size: 18px;
+color: #1B1C57;
+}
+.c-1 {
+position: relative;
+top: -30px;
+left: 50px;
+font-size: 14px;
+color: #888B97;
+font-family: lexend;
+}
+.client-2 {
+    height: 50px;
+    width: 120px;
+    margin-right: 350px;
+    margin-top: 20px;
+    position: relative;
+    left: -100px;
+}
+.cl-2 {
+    position: relative;
+    top: -35px;
+    left: 50px;
+    font-family: lexend;
+font-size: 18px;
+color: #1B1C57;
+}
+.c-2 {
+    position: relative;
+    top: -30px;
+    left: 50px;
+    font-size: 14px;
+color: #888B97;
+font-family: lexend;
+}
+.client-3 {
+    height: 50px;
+    width: 120px;
+    margin-right: 350px;
+    margin-top: 20px;
+    position: relative;
+    left: -180px;
+}
+.cl-3 {
+    position: relative;
+    top: -35px;
+    left: 50px;
+    font-family: lexend;
+font-size: 18px;
+color: #1B1C57;
+}
+.c-3 {
+    position: relative;
+top: -30px;
+left: 50px;
+font-size: 14px;
+color: #888B97;
+font-family: lexend;
+}
+.client-4 {
+    height: 50px;
+    width: 120px;
+    margin-right: 350px;
+    margin-top: 20px;
+    position: relative;
+    left: -250px;
+}
+.cl-4 {
+    position: relative;
+    top: -40px;
+    left: 50px;
+    font-family: lexend;
+font-size: 18px;
+color: #1B1C57;
+}
+.c-4 {
+    position: relative;
+top: -35px;
+left: 50px;
+font-size: 14px;
+color: #888B97;
+font-family: lexend;
+}
+.ready {
+    position: relative;
+top: 100px;
+}
+.corsse {
+    position: relative;
+    top: -20px;
+    left: 50px;
+    color: #F59E0B;
+    font-size: 14px;
+    font-family: lexend;
+}
+.header-3 {
+    font-family: lexend;
+    font-size: 32px;
+    color: #1B1C57;
+    word-spacing: 10px;
+}
+.par-8 {
+    font-size: 16px;
+    color: #888B97;
+    font-family: lexend;
+    margin-left: 20px;
+}
+.header-4 {
+    font-size: 18px;
+    font-family: lexend;
+    color: #1B1C57;
+    margin-left: 20px;
+}
+.shape {
+    position: relative;
+    
+    left: 20px;
+}
+.shape2 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.shape3 {
+    position: relative;
+    left: 300px;
+    top: -85px;
+}
+.shape4 {
+    position: relative;
+   top: -40px;
+    left: 300px;
+}
+.sh1 {
+    position: relative;
+    top: -25px;
+    left: 20px;
+    float: right;
+    font-family: lexend;
+    color: #888B97;
+
+}
+.sh2 {
+    float: right;
+    position: relative;
+    top: -20px;
+    left: 30px;
+    font-family: lexend;
+    color: #888B97;
+}
+.sh3 {
+    float: right;
+    font-family: lexend;
+    color: #888B97;
+}
+.sh4 {
+    position: relative;
+    top: -15px;
+    float: right;
+    font-family: lexend;
+    color: #888B97;
+}
+.image-1 {
+position: relative;
+top: -400px;
+left: 760px;
+}
+.image-2 {
+    position: relative;
+    top: -520px;
+    left: 720px;
+}
+.image-3 {
+position: relative;
+top: -605px;
+left: 1030px;
+}
+.image-4 {
+position: relative;
+top: -690px;
+left: 1140px;
+}
+.image-5 {
+    position: relative;
+    top: -1000px;
+left: 1000px;
+}
+.lana {
+    position: relative;
+top: -850px;
+left: 0px;
+}
+.lana-p {
+    position: relative;
+    top: -100px;
+    left: 100px;
+    font-family: lexend;
+    color: #1B1C57;
+
+}
+.lana-p2 {
+    position: relative;
+    top: -95px;
+    left: 100px;
+    font-family: lexend;
+    color:#888B97;
+    font-size: 16px;
+}
+.phone {
+    height: 50px;
+    width: 160px;
+    border-radius: 32px 32px;
+    background-color: #10B981;
+    position: relative;
+    top: -1000px;
+    left: 350px;
+}
+.call {
+    position: absolute;
+    right: 130px;
+    bottom: 10px;
+}
+.phonne {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    font-family: lexend;
+    color: #FFFFFF;
+    
+}
